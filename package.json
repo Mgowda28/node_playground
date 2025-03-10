@@ -4,11 +4,12 @@
   "description": "NodeJs playground - where we do a lot of NODEJS experiments",
   "main": "index.js",
   "scripts": {
-    "start": "node src/index.ts"
+    "start": "ts-node src/index.ts"
   },
   "author": "mvg",
   "license": "ISC",
   "dependencies": {
+    "@types/node": "^22.13.10",
     "gitignore": "^0.7.0"
   },
   "devDependencies": {
